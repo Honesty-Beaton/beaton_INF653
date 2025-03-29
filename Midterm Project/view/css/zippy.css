@@ -1,0 +1,113 @@
+/* Simple Styling for ZippyUsedAutos */
+form {
+    margin: 0 auto; /* Centers the form */
+    max-width: 600px; /* Limits form width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+p
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div
+{
+    display: inline-block;
+}
+
+/* Style form headers */
+.form-header, h1 {
+    font-size: 1.5em; /* Bigger title */
+    font-weight: bold;
+    color: #721b9ad2; /* Purple color */
+    margin-bottom: 20px;
+    text-align: center; /* Center the header */
+}
+h2
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+div p
+{
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6A1B9A; /* Purple label color */
+}
+
+/* Style for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some space above table */
+}
+
+/* Style for table headers */
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #7329c2; /* Purple background for header */
+    color: white; /* White text on purple */
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f1edf2;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #7329c2; /* Purple border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style submit buttons */
+button[type="submit"] {
+    background-color: #7329c2; /* Purple button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+}
+
+button[type="submit"]:hover {
+    background-color: #380a69; /* Darker purple on hover */
+}
+
+/* Style delete buttons */
+button.delete, .remove-button {
+    background-color: #D32F2F; /* Red button */
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #C62828; /* Darker red on hover */
+}
